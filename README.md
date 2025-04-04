@@ -7,6 +7,8 @@ G = (V,E) and undirected graph
 C = a finite set of colors  
 A valid coloring is a function f: V → C such that for every edge {x,y} ∈ E, f(x) ≠ f(y)  
 
+A greedy algorithm makes the best choice for each piece of the problem based on the partial solution determined so far.
+
 ## Pseudocode
 * Number the set of possible colors, C  
   * Assume ther is a large supply of different colors even though they may not all be used  
